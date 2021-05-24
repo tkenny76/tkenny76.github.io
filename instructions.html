@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Pax Plastica's Mandelbrot Explorer Instructions</title>
+</head>
+  <body>
+    <a href="index.html">Back</a>
+    <p>Within the image, this page is responsive to touch, but not necessarily in the expected manner. I did not yet introduce the pinch-to-zoom that might be your first instinct. The basics are as follows:
+
+<p>Mouse and Screen Input - these redraw automatically.
+<p>Click or Tap to re-center.
+<p>Click (mouse) or Touch (touchscreen) and Drag to zoom.
+
+<p>Button Inputs - these redraw after you click on the "Draw" button.  <p>The buttons are shown in the pictures above.
+<p>Count x2 : Doubles the Max Count, which is initializes at 1024.
+<p>Count /2 : Halves the Max Count.
+<p>Zoom -5 : Zooms out to 5 X the viewed radius.
+<p>Zoom +5 : Zooms in by 5 X.
+<p>Col Sh 10 : A given color scheme has 256 colors. This shifts the scheme by 10 counts in one direction.
+<p>Col Sh -1 : This shifts the color by 1 in the opposite direction.
+<p>Min Blk : This blacks out all color bands at or below the minimum band on the displayed image.  This defaults to zero showing all color bands.
+<p>Min +10 : This adjusts the minimum count +10, blacking out the next 10 color bands
+<p>Min -1 : This reduces the minimum count by 1, displaying one more band.
+<p>Btn10 : Reserved for future feature.
+<p>BW : Black / White / Gray scale Color Scheme
+<p>Rand : Random Color Scheme
+<p>RWB : Red White and Blue Color Scheme
+<p>ROYGBIV : (Default) Rainbow Color Scheme
+<p>Draw : Redraw with changes.
+
+<p>I added the Draw button rather than automatically redrawing after each change in order to speed up overall viewing.  This matters on my laptop, a state-of-the-art HP 15" Walmart special (literally).  On my iPhone or iPad it is fast enough that this is not necessary.  So you can, for example, shift colors by 30 by clicking "Col Sh 10" three times and then redrawing.
+  
+    </body>
+</html>
